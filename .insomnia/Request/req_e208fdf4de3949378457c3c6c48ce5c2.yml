@@ -1,7 +1,7 @@
 _id: req_e208fdf4de3949378457c3c6c48ce5c2
 type: Request
 parentId: wrk_c1aac2f177c849e28812afeabc1da0ab
-modified: 1698360216841
+modified: 1698361527016
 created: 1698189184055
 url: http://localhost:8080/medicos
 name: Cadastro de Medico
@@ -11,18 +11,17 @@ body:
   mimeType: application/json
   text: |-
     {
-    "nome": "Rodrigo Ferreira",
-    "email": "rodrigo.ferreira@voll.med",
-    "crm": "123456",
-    "especialidade": "ORTOPEDIA",
+    "nome": "Carla Vannesa",
+    "email": "carla.vanessa@voll.med",
+    "crm": "212647",
+    "telefone": "6199998888",
+    "especialidade": "CARDIOLOGIA",
     "endereco": {
-        "logradouro": "rua 1",
+        "logradouro": "rua 5",
         "bairro": "bairro",
-        "cep": "12345678",
-        "cidade": "Brasilia",
-        "uf": "DF",
-        "numero": "1",
-        "complemento": "complemento"
+        "cep": "88145987",
+        "cidade": "São José",
+        "uf": "SC"
         }
     }
 parameters: []
