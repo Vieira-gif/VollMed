@@ -1,0 +1,23 @@
+_id: req_3f17222b34754236ac68d1a5b2501fb2
+type: Request
+parentId: wrk_c1aac2f177c849e28812afeabc1da0ab
+modified: 1698710390866
+created: 1698709656529
+url: http://localhost:8080/medicos?size=1&page=2
+name: Listagem Medicos
+description: ""
+method: GET
+body: {}
+parameters: []
+headers:
+  - name: User-Agent
+    value: insomnia/8.3.0
+authentication: {}
+metaSortKey: -1698709656529
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global
