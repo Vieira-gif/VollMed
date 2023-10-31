@@ -1,19 +1,28 @@
-_id: req_3f17222b34754236ac68d1a5b2501fb2
+_id: req_38ac46c2064541b88216b6ba8c5f39e3
 type: Request
 parentId: wrk_c1aac2f177c849e28812afeabc1da0ab
-modified: 1698794370877
-created: 1698709656529
+modified: 1698793369592
+created: 1698792502061
 url: http://localhost:8080/medicos
-name: Listagem Medicos
+name: Altera Medico
 description: ""
-method: GET
-body: {}
+method: PUT
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"id": 1,
+    	"telefone": "6188880000",
+    	"nome": "Rodrigo Ferreira Silva"
+    }
 parameters: []
 headers:
+  - name: Content-Type
+    value: application/json
   - name: User-Agent
     value: insomnia/8.3.0
 authentication: {}
-metaSortKey: -1698709656529
+metaSortKey: -1698792502061
 isPrivate: false
 settingStoreCookies: true
 settingSendCookies: true

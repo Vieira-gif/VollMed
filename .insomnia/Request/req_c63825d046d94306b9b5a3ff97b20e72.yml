@@ -1,10 +1,10 @@
-_id: req_3f17222b34754236ac68d1a5b2501fb2
+_id: req_c63825d046d94306b9b5a3ff97b20e72
 type: Request
 parentId: wrk_c1aac2f177c849e28812afeabc1da0ab
-modified: 1698794370877
-created: 1698709656529
-url: http://localhost:8080/medicos
-name: Listagem Medicos
+modified: 1698792484776
+created: 1698792341417
+url: http://localhost:8080/paciente?sort=nome
+name: Listagem Pacientes
 description: ""
 method: GET
 body: {}
@@ -13,7 +13,7 @@ headers:
   - name: User-Agent
     value: insomnia/8.3.0
 authentication: {}
-metaSortKey: -1698709656529
+metaSortKey: -1698449420292
 isPrivate: false
 settingStoreCookies: true
 settingSendCookies: true
