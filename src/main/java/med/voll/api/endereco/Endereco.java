@@ -10,48 +10,46 @@ import lombok.NoArgsConstructor;
 @NoArgsConstructor
 @AllArgsConstructor
 public class Endereco {
+
     private String logradouro;
     private String bairro;
     private String cep;
+    private String numero;
+    private String complemento;
     private String cidade;
     private String uf;
-    private String complemento;
-    private String numero;
 
     public Endereco(DadosEndereco dados) {
         this.logradouro = dados.logradouro();
         this.bairro = dados.bairro();
         this.cep = dados.cep();
-        this.cidade = dados.cidade();
         this.uf = dados.uf();
-        this.complemento = dados.complemento();
+        this.cidade = dados.cidade();
         this.numero = dados.numero();
+        this.complemento = dados.complemento();
     }
 
-    public void atualizaInformacoes(DadosEndereco dados) {
-        if (this.logradouro != null){
+    public void atualizarInformacoes(DadosEndereco dados) {
+        if (dados.logradouro() != null) {
             this.logradouro = dados.logradouro();
         }
-        if (this.bairro != null){
+        if (dados.bairro() != null) {
             this.bairro = dados.bairro();
         }
-        if (this.cep != null){
+        if (dados.cep() != null) {
             this.cep = dados.cep();
         }
-
-        if (this.cidade != null){
-            this.cidade = dados.cidade();
-        }
-        if (this.uf != null){
+        if (dados.uf() != null) {
             this.uf = dados.uf();
         }
-        if (this.complemento != null){
-            this.complemento = dados.complemento();
+        if (dados.cidade() != null) {
+            this.cidade = dados.cidade();
         }
-
-        if (this.numero != null){
+        if (dados.numero() != null) {
             this.numero = dados.numero();
         }
-
+        if (dados.complemento() != null) {
+            this.complemento = dados.complemento();
+        }
     }
 }
