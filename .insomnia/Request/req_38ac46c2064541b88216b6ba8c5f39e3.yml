@@ -1,7 +1,7 @@
 _id: req_38ac46c2064541b88216b6ba8c5f39e3
 type: Request
 parentId: wrk_c1aac2f177c849e28812afeabc1da0ab
-modified: 1698793369592
+modified: 1699397548599
 created: 1698792502061
 url: http://localhost:8080/medicos
 name: Altera Medico
@@ -11,9 +11,8 @@ body:
   mimeType: application/json
   text: |-
     {
-    	"id": 1,
-    	"telefone": "6188880000",
-    	"nome": "Rodrigo Ferreira Silva"
+    	"id": 7,
+    	"telefone": "2369510541"
     }
 parameters: []
 headers:

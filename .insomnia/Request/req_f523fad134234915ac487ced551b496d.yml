@@ -1,12 +1,12 @@
-_id: req_075884f4bfbe4fadac04425660f8723f
+_id: req_f523fad134234915ac487ced551b496d
 type: Request
 parentId: wrk_c1aac2f177c849e28812afeabc1da0ab
-modified: 1699395560736
-created: 1698793615603
-url: http://localhost:8080/medicos/5
-name: Exclui Medico
+modified: 1699397958401
+created: 1699397743404
+url: http://localhost:8080/medicos/1
+name: Detalha Cadastro Medico
 description: ""
-method: DELETE
+method: GET
 body:
   mimeType: application/json
   text: ""
@@ -17,7 +17,7 @@ headers:
   - name: User-Agent
     value: insomnia/8.3.0
 authentication: {}
-metaSortKey: -1698793615603
+metaSortKey: -1699397743404
 isPrivate: false
 settingStoreCookies: true
 settingSendCookies: true

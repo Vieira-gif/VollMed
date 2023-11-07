@@ -1,9 +1,9 @@
 _id: req_c63825d046d94306b9b5a3ff97b20e72
 type: Request
 parentId: wrk_c1aac2f177c849e28812afeabc1da0ab
-modified: 1698792484776
+modified: 1699398714116
 created: 1698792341417
-url: http://localhost:8080/paciente?sort=nome
+url: http://localhost:8080/pacientes
 name: Listagem Pacientes
 description: ""
 method: GET

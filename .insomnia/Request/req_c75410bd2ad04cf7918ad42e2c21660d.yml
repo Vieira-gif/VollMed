@@ -1,9 +1,9 @@
 _id: req_c75410bd2ad04cf7918ad42e2c21660d
 type: Request
 parentId: wrk_c1aac2f177c849e28812afeabc1da0ab
-modified: 1698792466605
+modified: 1699399292030
 created: 1698190900105
-url: http://localhost:8080/paciente
+url: http://localhost:8080/pacientes
 name: Cadastro de Paciente
 description: ""
 method: POST
@@ -14,7 +14,7 @@ body:
     "nome": "João",
     "email": "teste@test.com",
     "telefone": "123456789",
-    "cpf": "14436367975",
+    "cpf": "144.363.679-75",
     "endereco": {
         "logradouro": "rua 1",
         "bairro": "bairro",

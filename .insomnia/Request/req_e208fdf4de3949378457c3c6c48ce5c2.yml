@@ -1,7 +1,7 @@
 _id: req_e208fdf4de3949378457c3c6c48ce5c2
 type: Request
 parentId: wrk_c1aac2f177c849e28812afeabc1da0ab
-modified: 1698361527016
+modified: 1699397417375
 created: 1698189184055
 url: http://localhost:8080/medicos
 name: Cadastro de Medico
@@ -11,15 +11,15 @@ body:
   mimeType: application/json
   text: |-
     {
-    "nome": "Carla Vannesa",
-    "email": "carla.vanessa@voll.med",
-    "crm": "212647",
-    "telefone": "6199998888",
-    "especialidade": "CARDIOLOGIA",
+    "nome": "Lucas Silva",
+    "email": "lucas.silva@voll.med",
+    "crm": "333666",
+    "telefone": "12345678911",
+    "especialidade": "DERMATOLOGIA",
     "endereco": {
-        "logradouro": "rua 5",
+        "logradouro": "rua 2",
         "bairro": "bairro",
-        "cep": "88145987",
+        "cep": "88145981",
         "cidade": "São José",
         "uf": "SC"
         }
