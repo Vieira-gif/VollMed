@@ -27,6 +27,7 @@ public class Paciente {
     @Embedded
     private Endereco endereco;
 
+    @Column(name = "ativo")
     private Boolean ativo;
 
     public Paciente(DadosCadastroPaciente dados) {
