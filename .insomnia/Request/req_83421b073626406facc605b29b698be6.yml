@@ -1,10 +1,10 @@
-_id: req_075884f4bfbe4fadac04425660f8723f
+_id: req_83421b073626406facc605b29b698be6
 type: Request
 parentId: wrk_c1aac2f177c849e28812afeabc1da0ab
-modified: 1699395231541
-created: 1698793615603
-url: http://localhost:8080/medicos/2
-name: Exclui Medico
+modified: 1699395249237
+created: 1699395239528
+url: http://localhost:8080/paciente/2
+name: Exclui Paciente
 description: ""
 method: DELETE
 body:
@@ -17,7 +17,7 @@ headers:
   - name: User-Agent
     value: insomnia/8.3.0
 authentication: {}
-metaSortKey: -1698793615603
+metaSortKey: -1698793058832
 isPrivate: false
 settingStoreCookies: true
 settingSendCookies: true

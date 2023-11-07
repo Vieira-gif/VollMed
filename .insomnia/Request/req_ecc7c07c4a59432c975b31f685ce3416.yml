@@ -1,15 +1,20 @@
-_id: req_075884f4bfbe4fadac04425660f8723f
+_id: req_ecc7c07c4a59432c975b31f685ce3416
 type: Request
 parentId: wrk_c1aac2f177c849e28812afeabc1da0ab
-modified: 1699395231541
-created: 1698793615603
-url: http://localhost:8080/medicos/2
-name: Exclui Medico
+modified: 1699395259015
+created: 1699395256910
+url: http://localhost:8080/paciente
+name: Altera Paciente
 description: ""
-method: DELETE
+method: PUT
 body:
   mimeType: application/json
-  text: ""
+  text: |-
+    {
+    	"id": 1,
+    	"telefone": "6188880000",
+    	"nome": "Rodrigo Ferreira Silva"
+    }
 parameters: []
 headers:
   - name: Content-Type
@@ -17,7 +22,7 @@ headers:
   - name: User-Agent
     value: insomnia/8.3.0
 authentication: {}
-metaSortKey: -1698793615603
+metaSortKey: -1698751079295
 isPrivate: false
 settingStoreCookies: true
 settingSendCookies: true
